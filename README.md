@@ -99,7 +99,7 @@ conda --version
 
 ```sh
 # Clone the repository
-git clone https://github.com/ahmadagah/ml-fma-finalProject
+git clone https://github.com/ahmadagah/fma-ml-project
 cd ml-fma-finalProject
 
 # Create the Conda environment (Python 3.9.21)

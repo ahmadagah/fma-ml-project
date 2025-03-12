@@ -1,0 +1,18 @@
+name: fma_ml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.21
+  - ipython
+  - librosa
+  - matplotlib
+  - numpy
+  - pandas
+  - pydot
+  - python-dotenv
+  - requests
+  - scikit-learn
+  - seaborn
+  - tqdm
+  - jupyter

@@ -1,0 +1,69 @@
+# ========================
+#  Ignore Large Data Files
+# ========================
+# Keep the /data/ folder but ignore everything inside it
+/data/*
+!/data/.gitkeep 
+
+# ========================
+#  Ignore Conda Environments
+# ========================
+/env/                 # Ignore Conda virtual environments
+/venv/                # Ignore Python virtual environments
+.DS_Store             # Ignore Mac system files
+*.conda               # Ignore Conda package files
+*.venv                # Ignore Python virtual environment files
+*.log                 # Ignore log files
+*.lock                # Ignore package manager lock files
+
+# ========================
+#  Ignore Conda Packages (Except environment.yml)
+# ========================
+/bin/                 # Ignore binary executables
+/include/             # Ignore C headers
+/lib/                 # Ignore Conda libraries
+/share/               # Ignore shared files
+conda-meta/           # Ignore Conda metadata
+pkgs/                 # Ignore cached Conda packages
+*.pyc                 # Ignore compiled Python files
+__pycache__/          # Ignore Python cache files
+
+# Preserve `environment.yml` but ignore all other installed package files
+!environment.yml
+
+# ========================
+#  Ignore Jupyter Notebook Temp Files
+# ========================
+.ipynb_checkpoints/   # Ignore Jupyter notebook autosave files
+/.vscode/             # Ignore VSCode settings
+/.idea/               # Ignore PyCharm settings
+/.pytest_cache/       # Ignore pytest cache
+/mypy_cache/          # Ignore mypy cache
+
+# ========================
+#  Ignore System-Specific Files
+# ========================
+.DS_Store             # Mac system file
+Thumbs.db            # Windows system file
+*.swp                 # Vim swap files
+*.swo                 # Vim swap files
+*.bak                 # Backup files
+
+# ========================
+#  Ignore Model Checkpoints and Outputs
+# ========================
+/models/              # Ignore ML model checkpoints
+/outputs/             # Ignore generated outputs
+*.h5                  # Ignore TensorFlow/Keras model files
+*.pkl                 # Ignore saved Python objects (Pickle)
+*.pt                  # Ignore PyTorch model files
+*.onnx                # Ignore ONNX model files
+
+# ========================
+#  Ignore Debugging and Logs
+# ========================
+*.log                 # Ignore log files
+*.out                 # Ignore compiled output files
+*.err                 # Ignore error files
+nohup.out             # Ignore nohup output logs
+
